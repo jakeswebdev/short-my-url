@@ -1,0 +1,35 @@
+{
+  "name": "short-my-url",
+  "version": "1.0.0",
+  "description": "A little API that returns a shorter version of the desired url.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeswebdev/short-my-url.git"
+  },
+  "keywords": [
+    "url",
+    "short",
+    "make",
+    "shorter",
+    "fcc",
+    "short",
+    "my",
+    "url"
+  ],
+  "author": "Jacobo Benzaquen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakeswebdev/short-my-url/issues"
+  },
+  "homepage": "https://github.com/jakeswebdev/short-my-url#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7",
+    "shortid": "^2.2.8"
+  }
+}
